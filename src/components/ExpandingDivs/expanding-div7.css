@@ -1,0 +1,52 @@
+.expanding-div7 {
+    height: 30px;
+    width: 0px;
+    background-color: #635BFF;
+    transition: margin-left 2.5s ease; /* Add a transition effect for width */
+    outline: 0;
+    margin-left: 100%;
+    margin-right: 0;
+  }
+  
+.expanded7 {
+  width: 60%;
+  margin-left: 5%;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .expanding-div7 {
+      height: 25px;
+    }
+    .expanded7 {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 1400px) and (min-width: 1001px) {
+    .expanding-div7 {
+      height: 30px;
+    }
+    
+    .expanded7 {
+      width: 70%;
+      margin-left: 0%;
+    }
+  }
+
+    /* mobile screens */
+
+    @media screen and (max-width: 600px) {
+        .expanding-div7 {
+          height: 15px;
+          transition: margin-left 2.5s ease;
+          margin-left: 100%;
+        }
+      
+        .expanded7 {
+          width: 60%;
+          margin-left: 40%;
+        }
+    }

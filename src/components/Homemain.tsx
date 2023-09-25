@@ -1,11 +1,11 @@
-import './Homemain.css'
+import './HomeMain.css'
 
-function Homemain() {
+function HomeMain() {
     return (
-        <div className='Homemain bg-black '>
+        <div className='Homemain bg-gray-100 '>
 
         </div>
     )
 }
 
-export default Homemain;
+export default HomeMain;

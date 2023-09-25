@@ -1,0 +1,55 @@
+.expanding-div {
+    height: 30px;
+    width: 0px;
+    background-color: #635BFF;
+    transition: margin-left 2.0s ease; /* Add a transition effect for width */
+    outline: 0;
+    margin-left: 100%;
+    
+}
+  
+.expanded {
+  width: 60%;
+  margin-left: 25%;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .expanding-div {
+    height: 25px;
+  }
+
+  .expanded {
+    width: 50%;
+    margin-left: 45% 
+  }
+  
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1001px) {
+  .expanding-div{
+    height: 30px;
+  }
+  
+  .expanded {
+    width: 70%;
+    margin-left: 25%;
+  }
+}
+
+/* mobile screens */
+
+
+@media screen and (max-width: 600px) {
+  .expanding-div {
+    height: 15px;
+    transition: margin-left 2.0s ease;
+    margin-left: 100%;
+  }
+
+  .expanded {
+    width: 60%;
+    margin-left: 0%;
+  }
+}
+

@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-const ContactPage: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Contact Page</h1>
       {/* Add your content */}
     </div>
   );
 };
 
-export default ContactPage;
+export default Contact;

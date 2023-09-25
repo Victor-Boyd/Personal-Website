@@ -1,13 +1,12 @@
-
 import React from 'react';
 
-const HomePage: React.FC = () => {
+const About: React.FC = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>About Page</h1>
       {/* Add your content */}
     </div>
   );
 };
 
-export default HomePage;
+export default About;

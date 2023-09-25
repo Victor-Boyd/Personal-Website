@@ -1,19 +1,14 @@
+// import React from 'react';
+import AppRoutes from './AppRoutes';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Homemain from './components/Homemain'
-import './App.css'
+
+
 
 function App() {
-
-
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Homemain />
-    </>
-  )
+    <AppRoutes />
+  );
 }
 
-export default App
+export default App;
