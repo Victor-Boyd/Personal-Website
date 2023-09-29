@@ -1,0 +1,10 @@
+:root {
+    --fs-xxl: clamp(.5rem, 5vw + .1rem, 2rem);
+    --fs-xl: clamp();
+    --fs-l: clamp();
+    --fs-m: 1rem;
+    --fs-s: .8rem;
+
+    --lh-l: 1.2;
+    --lh-m: 1;
+}

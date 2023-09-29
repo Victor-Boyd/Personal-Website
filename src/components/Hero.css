@@ -158,6 +158,13 @@
 
 
 /* @media for headshot */
+@media screen and (max-width:1185px) and (min-width: 731px) {
+    .headshot {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 730px) and (min-width: 641px){
     .headshot {
         width: 250px;

@@ -1,4 +1,4 @@
-import './Hero.css';
+import './hero.css';
 import ExpandingDiv from './ExpandingDivs/ExpandingDiv';
 import ExpandingDiv2 from './ExpandingDivs/ExpandingDiv2';
 import ExpandingDiv3 from './ExpandingDivs/ExpandingDiv3';
