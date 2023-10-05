@@ -4,7 +4,10 @@ import animationData1 from '../assets/webDev.json';
 import animationData2 from '../assets/Scrum.json';
 import animationData3 from '../assets/Automation.json'
 import animationData4 from '../assets/Founder.json'
+import HomemainDropdown1 from './TextDropdowns/HomemainDropdown1'
 import HomemainDropdown2 from './TextDropdowns/HomemainDropdown2'
+import HomemainDropdown3 from './TextDropdowns/HomemainDropdown3'
+import HomemainDropdown4 from './TextDropdowns/HomemainDropdown4'
 import { useRef } from 'react'
 
 
@@ -16,7 +19,7 @@ function HomeMain() {
     return (
         <div className='home-main bg-gray-100 w-full h-auto '>
             <div className='home-main-inner px-6 py-24 h-full flex-col'>
-                <div className='home-main-content1 min-sm:w-4/5 h-auto mr-auto flex flex-row '>
+                <div className='home-main-content1 max-sm:w-full  h-auto mr-auto max-sm:mx-auto flex max-sm:flex-col max-sm:justify-center flex-row '>
                     {/* Web dev */}
                     <Lottie 
                         onComplete={() => {
@@ -27,13 +30,18 @@ function HomeMain() {
                             webDevRef.current?.goToAndPlay(1, true);
                             }, 20000);
                         }}
-                        className='lottie-custom w-4/12'
+                        className='lottie-custom w-4/12 max-sm:w-3/4 max-sm:mx-auto'
                         loop={false}
                         lottieRef={webDevRef}
                         animationData={animationData1} />
+                    <div className='homemain-content-text-container px-6 py-6 w-8/12 max-sm:w-full flex items-center justify-center'>
+                        <div className='homemain-content-text  '>
+                            <HomemainDropdown1 />
+                        </div>
+                    </div>
                 </div>
-                <div className='home-main-content2 min-sm:w-4/5 h-1/5 ml-auto flex flex-row justify-end '>
-                    <div className='homemain-content-text-container px-6 py-6 w-8/12 flex items-center justify-center'>
+                <div className='home-main-content2 max-sm:w-full  h-auto mr-auto max-sm:mx-auto flex max-sm:flex-col-reverse max-sm:justify-center flex-row justify-end '>
+                    <div className='homemain-content-text-container px-6 py-6 w-8/12 max-sm:w-full flex items-center justify-center'>
                         <div className='homemain-content-text  '>
                             <HomemainDropdown2 />
                         </div>
@@ -50,14 +58,14 @@ function HomeMain() {
                                 }, 20000);
                             }}
                         
-                            className='lottie-custom w-4/12'
+                            className='lottie-custom w-4/12 max-sm:w-3/4 max-sm:mx-auto'
                             loop={false}
                             lottieRef={ScrumRef}
                             animationData={animationData2} />
 
                         
                 </div>
-                <div className='home-main-content3 min-sm:w-4/5 h-1/5 mr-auto'>
+                <div className='home-main-content3 max-sm:w-full  h-auto mr-auto max-sm:mx-auto flex max-sm:flex-col max-sm:justify-center flex-row'>
                     {/* Automation */}
                     <Lottie 
                         
@@ -70,12 +78,17 @@ function HomeMain() {
                             }, 20000);
                         }}
                     
-                        className='lottie-custom w-4/12'
+                        className='lottie-custom w-4/12 max-sm:w-3/4 max-sm:mx-auto'
                         loop={false}
                         lottieRef={AutomationRef}
                         animationData={animationData3} />
+                    <div className='homemain-content-text-container px-6 py-6 w-8/12 max-sm:w-full flex items-center justify-center'>
+                        <div className='homemain-content-text  '>
+                            <HomemainDropdown3 />
+                        </div>
+                    </div>
                 </div>
-                <div className='home-main-content4 min-sm:w-4/5 h-1/5 ml-auto flex justify-end'>
+                <div className='home-main-content4 max-sm:w-full  h-auto mr-auto max-sm:mx-auto flex max-sm:flex-col max-sm:justify-center flex-row'>
                     {/* Founder */}
                     <Lottie 
                         
@@ -88,16 +101,17 @@ function HomeMain() {
                             }, 20000);
                         }}
                     
-                        className='lottie-custom w-4/12'
+                        className='lottie-custom w-4/12 max-sm:w-3/4 max-sm:mx-auto'
                         loop={false}
                         lottieRef={FounderRef}
                         animationData={animationData4} />
                     <div className=''>
-                        
+                    <div className='homemain-content-text-container px-6 py-6 w-8/12 max-sm:w-full flex items-center justify-center'>
+                        <div className='homemain-content-text  '>
+                            <HomemainDropdown4 />
+                        </div>
+                    </div>    
                     </div>
-                </div>
-                <div className='home-main-content5 min-sm:w-4/5 h-1/5 mr-auto'>
-
                 </div>
             </div>
         </div>

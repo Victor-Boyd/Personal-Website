@@ -5,7 +5,6 @@
     border-radius: 30px;
     border-color: #635BFF;
     
-    --fs-600:
 }
 
 .dropdown-label {
@@ -18,3 +17,20 @@
    line-height: var(--lh-l);
 }
 
+@media screen and (min-width: 748px) and (max-width: 1000px) {
+    .dropdown-label {
+        font-size: var(--fs-m);
+    }
+    .dropdown-content {
+        font-size: var(--fs-m);
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .dropdown-label {
+        font-size: var(--fs-l);
+    }
+    .dropdown-content {
+        font-size: var(--fs-l);
+    }
+}
