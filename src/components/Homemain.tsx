@@ -11,13 +11,15 @@ import HomemainDropdown4 from './TextDropdowns/HomemainDropdown4'
 import { useRef } from 'react'
 
 
+
+
 function HomeMain() {
     const webDevRef = useRef<LottieRefCurrentProps>(null);
     const ScrumRef = useRef<LottieRefCurrentProps>(null);
     const AutomationRef = useRef<LottieRefCurrentProps>(null);
     const FounderRef = useRef<LottieRefCurrentProps>(null);
     return (
-        <div className='home-main bg-gray-100 w-full h-auto '>
+        <section id='home-main' className='home-main bg-gray-100 w-full h-auto '>
             <div className='home-main-inner px-6 py-24 h-full flex-col'>
                 <div className='home-main-content1 max-sm:w-full  h-auto mr-auto max-sm:mx-auto flex max-sm:flex-col max-sm:justify-center flex-row '>
                     {/* Web dev */}
@@ -115,7 +117,7 @@ function HomeMain() {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 

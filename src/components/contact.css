@@ -1,0 +1,15 @@
+.contact-inner-text-title {
+    color: #635BFF;
+    font-size: var(--fs-l)
+}
+
+.contact-inner-text-content {
+    color: #635BFF;
+    font-size: var(--fs-xtram)
+}
+
+@media screen and (max-width:640px) {
+    .contact-inner-text-content {
+        font-size: var(--fs-m)
+    }
+}

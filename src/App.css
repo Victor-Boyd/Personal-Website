@@ -2,6 +2,7 @@
     --fs-xxl: clamp(.5rem, 5vw + .1rem, 2rem);
     --fs-xl: clamp();
     --fs-l: clamp(1rem, 2vw + .25rem, 1.75rem);
+    --fs-xtram:1.25rem;
     --fs-m: 1rem;
     --fs-s: .8rem;
 
