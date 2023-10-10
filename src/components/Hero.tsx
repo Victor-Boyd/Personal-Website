@@ -1,4 +1,5 @@
 import './hero.css';
+
 import ExpandingDiv from './ExpandingDivs/ExpandingDiv';
 import ExpandingDiv2 from './ExpandingDivs/ExpandingDiv2';
 import ExpandingDiv3 from './ExpandingDivs/ExpandingDiv3';
@@ -9,12 +10,14 @@ import ExpandingDiv7 from './ExpandingDivs/ExpandingDiv7';
 import ExpandingDiv8 from './ExpandingDivs/ExpandingDiv8';
 import ExpandingDiv9 from './ExpandingDivs/ExpandingDiv9';
 
+
+
 function Hero() {
   return (
     <div className='hero w-full bg-white flex'>
       <div className='hero-inner  py-1 w-full overflow-hidden'>
         <div className='hero-left'>
-          <img className='headshot' src='../src/assets/headshot.PNG' alt='Headshot' />
+          <img className='headshot' src='https://personal-website-a0181.web.app/headshot.png' alt='Headshot' />
         </div>
         <div className='hero-right justify-end align-top relative '>
           <div className='expanding-div-container w-full h-auto absolute '>
