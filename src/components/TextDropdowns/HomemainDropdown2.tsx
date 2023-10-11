@@ -18,7 +18,7 @@ const HomemainDropdown2 = () => {
       <br/>
       My strengths include Agile coaching, problem-solving, and a relentless pursuit of self-improvement.<br />
       <br />
-      <strong className='flex justify-end'> Click to see a more in depth description! </strong><br /><br /> </span>
+      <strong className='flex justify-center'> Click to see a more in depth description! </strong><br /><br /> </span>
     { show && <p className="dropdown-content flex justify-center text-center pl-4 pr-4 pb-4" >
       I am a certified Technical Scrum Master with a track record of effectively managing web development teams. My foremost commitment is to create an environment where my team thrives, and their productivity soars.<br />
       <br />
