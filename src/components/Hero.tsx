@@ -17,7 +17,7 @@ function Hero() {
     <div className='hero w-full bg-white flex'>
       <div className='hero-inner  py-1 w-full overflow-hidden'>
         <div className='hero-left'>
-          <img className='headshot' src='https://personal-website-a0181.web.app/headshot.png' alt='Headshot' />
+          <img className='headshot' src='https://victorboyd.dev/headshot.png' alt='Headshot' />
         </div>
         <div className='hero-right justify-end align-top relative '>
           <div className='expanding-div-container w-full h-auto absolute '>
